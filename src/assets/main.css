@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.poorstyle{font-family: "Poor Story"}
+
+h1 {
+  font-family: "Poor Story";
+  text-align: left;
+  position : fixed;
+  text-transform: uppercase;
+  color:aliceblue;
+  z-index: 999999999999
+}
+
+h2 {
+  font-family: "Poor Story";
+  text-align: center;
+  text-transform: uppercase;
+  position : fixed;
+  width: 100%;
+  height: 44px;
+  color:aliceblue;
+  background-color:black;
+  z-index: 9999999
+}
